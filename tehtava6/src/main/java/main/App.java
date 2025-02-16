@@ -36,12 +36,12 @@ public class App
                         int insturmentPrice = Integer.parseInt(sc.nextLine());
 
                         if(selectInstrument == 1){
-                            Guitar guitar = new Guitar(instrumentManufacturer, insturmentPrice, 6);
+                            Guitar guitar = new Guitar(instrumentManufacturer, insturmentPrice);
                             Instruments.add(guitar);
                             System.out.println("Soitin lisätty listaan!");
                         }
                         else if(selectInstrument == 2){
-                            Violin violin = new Violin(instrumentManufacturer, insturmentPrice, 4);
+                            Violin violin = new Violin(instrumentManufacturer, insturmentPrice);
                             Instruments.add(violin);
                             System.out.println("Soitin lisätty listaan!");   
                         }
